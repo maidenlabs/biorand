@@ -1,0 +1,31 @@
+{
+    "name": "@maidenlabs/biorand",
+    "version": "1.0.1",
+    "homepage": "https://maidenlabs.ai",
+    "description": "Publicly accessible, bologically derived randomness",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "keywords": [
+        "typescript",
+        "library",
+        "live data",
+        "MEA",
+        "socket.io",
+        "neuroplatform",
+        "finalspark",
+        "adapter"
+    ],
+    "author": "Maiden Labs <0xcheez>",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^4.0.0"
+    },
+    "dependencies": {},
+    "publishConfig": {
+        "registry": "https://registry.npmjs.com/",
+        "access": "public"
+    }
+}
